@@ -30,6 +30,11 @@ The site was set up before the 20th of March. On the 20th of March, the first in
 The content of this site is taken from the Code Institute course. This is so that it is possible to verify if the steps taken are correctly applied and that the result of the finished site is the same. 
 The content is not copied and pasted, but written. This way the steps are implemented by the student and the student attempts to understand the lines written and code applied.
 
-### update 20/03 14:00 
+### Update 20/03 14:00 
 The sample content of the site is added
+
+### Update 20/03 14:30
+The sample content of the site has been updated based on the core CSS lesson
+
+
 Happy coding!
