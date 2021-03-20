@@ -36,8 +36,11 @@ The sample content of the site is added
 ### Update 20/03 14:30
 The sample content of the site has been updated based on the core CSS lesson
 
-### Update 20-03 16:00
+### Update 20/03 16:00
 The sample content of the site has been updated based on the Responsive Design part 1 and 2 lesson. A grid system has been added to the layout.
+
+### Update 20/03 16:20
+The sample content of the site has been updated based on the Bootrap Core Components 1 lesson. 
 
 
 Happy coding!
