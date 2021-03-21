@@ -6,19 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="../bootstrap/stylesheet/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
 </head>
 
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
         <a haref="/" class="navbar-brandd">Whiskey Drop</a>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
 
-        </ul>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Irish</a>
+                        <a class="dropdown-item" href="#">Scotch</a>
+                        <a class="dropdown-item" href="#">Japanese</a>
+                        <a class="dropdown-item" href="#">American</a>
+                    </div>
+                </li>
+                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+
+            </ul>
+        </div>
         <div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
             <a href="/login">Sign in / Sign up</a>
@@ -28,7 +48,8 @@
     <article class="container mt-3">
         <div class="row d-none d-sm-block">
             <div class="col-12">
-                <div class="alert- alert-warning"><strong>Sale Now On!</strong>We've got a sale on. Get a 12-month subscription for 6! <a href="">See here for details!</a></div>
+                <div class="alert- alert-warning"><strong>Sale Now On!</strong>We've got a sale on. Get a 12-month
+                    subscription for 6! <a href="">See here for details!</a></div>
             </div>
         </div>
         <div class="row">
@@ -39,7 +60,7 @@
                         <s class="d-none d-sm-inline">€19.99</s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-success btn-lg">Sign Up!</button>
+                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up ot our service. Please, drink
                             responsibly.</small></p>
                 </section>
@@ -57,7 +78,7 @@
                 <div class="col-12 col-md-6">
                     <div class="media">
                         <div class="d-none d-sm-block">
-                        <img src="images/girl-image1.png" class="rounded-circle mr-3" height="100" width="100">
+                            <img src="images/girl-image1.png" class="rounded-circle mr-3" height="100" width="100">
                         </div>
                         <div class="media-body">
                             <blockquote class="block-quote">
@@ -70,9 +91,9 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="media">
-                         <div class="d-none d-sm-block">
-                        <img src="images/guy-image2.png" class="rounded-circle mr-3" height="100" width="100">
-                    </div>
+                        <div class="d-none d-sm-block">
+                            <img src="images/guy-image2.png" class="rounded-circle mr-3" height="100" width="100">
+                        </div>
                         <div class="media-body">
                             <blockquote class="block-quote">
                                 <p>I haven't been sober for months!</p>
@@ -95,7 +116,8 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span
+                                class="badge badge-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -124,6 +146,49 @@
         </section>
 
     </article>
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
+        integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
+        integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
