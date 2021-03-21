@@ -42,5 +42,8 @@ The sample content of the site has been updated based on the Responsive Design p
 ### Update 20/03 16:20
 The sample content of the site has been updated based on the Bootrap Core Components 1 lesson. 
 
+### Update 21/03 10:30
+The sample content of the site has been updated based on the Progressive Enhancement with JavaScript Components lessons.
+
 
 Happy coding!
