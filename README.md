@@ -45,5 +45,6 @@ The sample content of the site has been updated based on the Bootrap Core Compon
 ### Update 21/03 10:30
 The sample content of the site has been updated based on the Progressive Enhancement with JavaScript Components lessons.
 
-
+### Update 21/03 16:00
+The sample content of the site has been updated based on the Beyond Bootstrap lessons. 
 Happy coding!
